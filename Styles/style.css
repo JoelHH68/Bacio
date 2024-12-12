@@ -1,0 +1,30 @@
+body{
+    margin: 0;
+    background-image: url("../Images/Fond.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+header{
+    display: flex;
+    background: linear-gradient(to bottom, rgb(0, 0, 0, 1) 50%, rgb(0, 0, 0, 0)100%);
+    padding: 16px;
+}
+
+.logo{
+    width: 125px;
+    height: auto;
+}
+img{
+    width: 100%;
+}
+
+.menu{
+    display: flex;
+    color: white;
+    gap: 16px;
+    margin-right: 16px;
+    margin-left: auto;
+}
