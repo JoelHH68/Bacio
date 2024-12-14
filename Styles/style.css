@@ -14,6 +14,7 @@ header{
     width: 100px;
     height: auto;
 }
+
 img{
     width: 100%;
 }
@@ -32,8 +33,8 @@ img{
     background-size: cover;
     background-position: center;
     background-attachment: scroll;
-    padding: 25px;
-    box-shadow: inset 0px 0px 14px 8px #000000;
+    padding: 30px;
+    box-shadow: inset 0px 0px 20px 20px #000000;
 }
 
 
@@ -85,11 +86,23 @@ p{
     display: flex;
     background-color: black;
     justify-content: space-around;
+    padding: 32px;
 }
 
 .Mulhouse, .Rixheim, .Huningue, .Altkirch{
-    background-color: #A1638A;
+    background-color: white;
     border-radius: 16px;
-    width: 90px;
-    height: 150px;
+    max-width: 200px;
+    color: black;
+    padding: 16px;
+    font-family: 'Satoshi', sans-serif;
+    font-size: 14px;
+}
+
+.nom{
+    color:#A1638A;
+    font-family: 'Rosaline', cursive;
+    text-align: center;
+    padding: 8px;
+    font-size: 20px;
 }
