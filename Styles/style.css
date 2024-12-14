@@ -1,20 +1,17 @@
 body{
-    margin: 0;
-    background-image: url("../Images/Fond.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
+    margin: 0;   
 }
 
 header{
     display: flex;
-    background: linear-gradient(to bottom, rgb(0, 0, 0, 1) 45%, rgb(0, 0, 0, 0)100%);
+    background: black;
     padding: 16px;
+    align-items: center;
 }
 
+
 .logo{
-    width: 125px;
+    width: 100px;
     height: auto;
 }
 img{
@@ -27,6 +24,16 @@ img{
     gap: 16px;
     margin-right: 16px;
     margin-left: auto;
+}
+
+.homepage{
+    background-image: url("../Images/Fond.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: scroll;
+    padding: 25px;
+    box-shadow: inset 0px 0px 14px 8px #000000;
 }
 
 
@@ -61,7 +68,7 @@ p{
 .bouton{
     display: flex;
     font-family: 'Satoshi', sans-serif;
-    color: #49233D;
+    color: #A1638A;
 }
 
 .reserver, .commander{
@@ -72,4 +79,17 @@ p{
     margin-left: 35px;
     border-radius: 24px;
     text-align: center;
+}
+
+.liste_restaurent{
+    display: flex;
+    background-color: black;
+    justify-content: space-around;
+}
+
+.Mulhouse, .Rixheim, .Huningue, .Altkirch{
+    background-color: #A1638A;
+    border-radius: 16px;
+    width: 90px;
+    height: 150px;
 }
