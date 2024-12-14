@@ -50,7 +50,6 @@ img{
 /*******************/
 
 main{
-    min-height: 100vh;
     background-image: linear-gradient(black, #632A56);
     display: flex;
     justify-content: space-around;
@@ -63,6 +62,81 @@ main{
     width: fit-content;
     text-align: center;
     padding: 24px;
+    font-family: 'Satoshi', sans-serif;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.titre{
+    margin-bottom: 24px;
+    font-weight: bold;
+}
+
+form>div:first-child{
+    background-color: #A1638A;
+    border-radius: 8px;
+    margin: 10px;
+    padding: 8px;
+    display: flex; 
+    align-items: center; 
+    gap: 10px; 
+    color: white;
+    font-size: 16px;
+}
+
+form>div:nth-child(2){
+    background-color: #A1638A;
+    border-radius: 8px;
+    padding: 8px;
+    margin: 10px 10px 0px 10px;
+    display: flex; 
+    align-items: center; 
+    gap: 10px; 
+    color: white;
+    font-size: 16px;
+}
+
+ input {
+    border: 1px solid white; 
+    padding: 4px; 
+    border-radius: 4px; 
+
+    background: transparent; 
+    outline: none; 
+    color: white; 
+    font-size: 16px; 
+}
+
+ input:focus {
+    border-bottom: 2px solid white; 
+}
+
+
+
+.oublier>a{
+    color: rgb(160, 160, 160);
+    font-size: 12px
+}
+
+button{
+    margin: 16px;
+    padding: 12px 20px 12px 20px;
+    border-radius: 24px;
+    background-color: #A1638A;
+    text-decoration: none;
+    cursor: pointer;
+    border: none;
+}
+
+button>a{
+    text-decoration: none;
+    color: white;
+    font-size: 16px
+}
+
+.pas-de-compte>a{
+    color: rgb(160, 160, 160);
+    font-size: 14px;
 }
 
 
