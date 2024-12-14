@@ -7,8 +7,8 @@ header{
     background: black;
     padding: 16px;
     align-items: center;
+    font-family: 'Satoshi', sans-serif;
 }
-
 
 .logo{
     width: 100px;
@@ -84,7 +84,7 @@ p{
 
 .liste_restaurent{
     display: flex;
-    background-color: black;
+    background-image: linear-gradient(black, #632A56);
     justify-content: space-around;
     padding: 32px;
 }
@@ -103,6 +103,15 @@ p{
     color:#A1638A;
     font-family: 'Rosaline', cursive;
     text-align: center;
-    padding: 8px;
+    padding: 14px;
     font-size: 20px;
 }
+
+.adresse, .tel{
+    padding-bottom: 10px;
+}
+
+.horraire>.journee>div:last-child{
+    padding-bottom: 10px;
+}
+
