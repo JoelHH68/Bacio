@@ -1,0 +1,119 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    margin: 0;   
+}
+
+
+/*********************/
+/***Style du Header***/
+/*********************/
+header{
+    display: flex;
+    background: black;
+    padding: 16px;
+    align-items: center;
+    font-family: 'Satoshi', sans-serif;
+    margin-bottom: 0;
+}
+
+.logo{
+    width: 100px;
+    height: auto;
+}
+
+img{
+    width: 100%;
+}
+
+.menu{
+    display: flex;
+    margin-right: 16px;
+    margin-left: auto;
+    gap: 16px;
+}
+
+.menu>a{
+    color: white;
+    text-decoration: none;
+}
+
+.menu>a:hover{
+    color: #A1638A;
+}
+
+
+/*******************/
+/***Style du Main***/
+/*******************/
+
+main{
+    min-height: 100vh;
+    background-image: linear-gradient(black, #632A56);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.case{
+    background-color: white;
+    border-radius: 24px;
+    width: fit-content;
+    text-align: center;
+    padding: 24px;
+}
+
+
+
+
+/*********************/
+/***Style du Footer***/
+/*********************/
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+    font-family: 'Satoshi', sans-serif;
+    padding: 24px;
+    align-items: center;
+}
+
+.gauche{
+    width: 100px;
+    height: auto;
+}
+
+.centre{
+    text-align: center;
+}
+
+.prevention{
+    padding: 8px;
+}
+
+.droite>div>a{
+    text-decoration: none;
+    color: white;
+    text-align: center;
+}
+
+.droite>div>a:hover{
+    color: #A1638A;
+}
+
+.droite{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+.droite>div{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
