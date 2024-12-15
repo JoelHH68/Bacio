@@ -85,32 +85,73 @@ p{
     font-family: 'Satoshi', sans-serif;
 }
 
-.bouton{
-    display: flex;
-    font-family: 'Satoshi', sans-serif;
-    color: #632A56;
-    font-weight: bolder;
+
+
+
+/* From Uiverse.io by gharsh11032000 */ 
+.bouton {
+    position: relative;
+    overflow: hidden;
+    height: 60px;
+    padding: 20px;
+    border-radius: 20px;
+    background: white;
+    background-size: 400%;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: all 0.2s cubic-bezier(0.23, 1, 0.320, 1);
+    margin: 24px 0px 24px 35px
+  }
+  
+  
+.bouton:hover::before {
+    transform: scaleY(1);
+  }
+  
+.bouton:hover>a { 
+    text-shadow: 0 0 10px white, 0 0 5px rgba(255, 255, 255, 0.6);
+    color: black; 
 }
 
-
-.bouton a{
+  .bouton>a {
+    position: relative;
+    z-index: 1;
     text-decoration: none;
-}
+    color: #632A56;
+  }
+  
+  .bouton::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: scaleY(0);
+    transform-origin: top;
+    width: 110%;
+    height: inherit;
+    border-radius: inherit;
+    background: linear-gradient(
+      to bottom,
+      #632A56 10.8%,
+      #A1638A 94.3%
+    );
+    transition: all 0.6s cubic-bezier(0.23, 1, 0.320, 1);
+  }
+  
+  .bouton:active {
+    scale: 0.9;
+  }
 
-.reserver, .commander{
-    background-color: white;
-    width: 90px;
-    padding: 16px;
-    margin-top: 35px;
-    margin-left: 35px;
-    border-radius: 24px;
-    text-align: center;
-}
 
-.reserver:hover, .commander:hover{
-    text-shadow: 2px 2px 5px white;
-    background-color: #A1638A; 
-}
+
+
+
+
+
+
+
+
 
 .liste_restaurent{
     background-image: linear-gradient(black, #632A56);
